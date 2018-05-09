@@ -1,4 +1,4 @@
-# My first portfolio project
+# Portfolio project
 
 - [Rubric - Design](https://github.com/anthonybronkema/portfolio_site#rubric---design)
     - [Req'd Elements](https://github.com/anthonybronkema/portfolio_site#reqd-elements)
