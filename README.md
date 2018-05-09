@@ -52,6 +52,8 @@
 - Page utilizes a grid-based layout
 - Page uses `flexbox` layout (or framework)
 
+[_top_](https://github.com/anthonybronkema/portfolio_site#my-first-portfolio-project)
+
 ## Rubric - Responsiveness
 
 ### Cross-Device Compatability
@@ -64,11 +66,15 @@
 - All content is rendered on all devices - no hidden content on mobile
 - ~~`meta` tag is included in HTML~~
 
+[_top_](https://github.com/anthonybronkema/portfolio_site#my-first-portfolio-project)
+
 ## Separation of Concerns
 
 ### Styles Separated From HTML
 
 - no inline styles in HTML document, or `style` tag
+
+[_top_](https://github.com/anthonybronkema/portfolio_site#my-first-portfolio-project)
 
 ## Code Quality
 
@@ -115,6 +121,8 @@
 - ~~HTML templates and documents use UTF-8 encoding. (no BOM) i.e. `<meta charset="utf-8">`~~
 - __**BONUS:**__ Mark todos and action items with `TODO`
 
+[_top_](https://github.com/anthonybronkema/portfolio_site#my-first-portfolio-project)
+
 ## Style Guide
 
 ### Colors
@@ -122,3 +130,5 @@
 - **Dominant:** #5fffd0
 - _Accent1:_ #6d7f7a
 - _Accent2:_ #abffe7
+
+[_top_](https://github.com/anthonybronkema/portfolio_site#my-first-portfolio-project)
