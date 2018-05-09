@@ -94,6 +94,8 @@
 - __**BONUS:**__ Code does not use entity references unless necessary e.g. characters with special meaning in HTML (like < and &) as well as control or “invisible” characters (like no-break spaces).
 - __**BONUS:**__ Code omits type attributes for style sheets and scripts
 
+[_top_](https://github.com/anthonybronkema/portfolio_site#my-first-portfolio-project)
+
 ### CSS Formatting Rules
 
 - Code does not have trailing white spaces.
@@ -115,6 +117,8 @@
 - __**BONUS:**__ Code uses 3-character hexadecimal notation where possible.
 - __**BONUS:**__ Code separate words in ID and class names by a hyphen.
 - __**BONUS:**__ Code avoids user agent detection as well as CSS "hacks"—try a different approach first.
+
+[_top_](https://github.com/anthonybronkema/portfolio_site#my-first-portfolio-project)
 
 ### General Meta Rules
 
