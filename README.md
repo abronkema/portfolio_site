@@ -135,4 +135,4 @@
 - _Accent1:_ #6d7f7a
 - _Accent2:_ #abffe7
 
-[_top_](https://github.com/anthonybronkema/portfolio_site#my-first-portfolio-project)
+[_top_](https://github.com/anthonybronkema/portfolio_site#portfolio-project)
