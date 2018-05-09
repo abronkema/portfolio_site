@@ -1,9 +1,22 @@
 # My first portfolio project
 
 - [Rubric - Design](https://github.com/anthonybronkema/portfolio_site#rubric---design)
+    - [Req'd Elements](https://github.com/anthonybronkema/portfolio_site#reqd-elements)
+    - [HTML](https://github.com/anthonybronkema/portfolio_site#html)
+    - [Custom Design](https://github.com/anthonybronkema/portfolio_site#custom-design)
+    - [Grid Based Layout](https://github.com/anthonybronkema/portfolio_site#grid-based-layout)
 - [Rubric - Responsiveness](https://github.com/anthonybronkema/portfolio_site#rubric---responsiveness)
+    - [Cross-Device Compatibility](https://github.com/anthonybronkema/portfolio_site#cross-device-compatability)
+    - [Provide All Content](https://github.com/anthonybronkema/portfolio_site#provide-all-content)
 - [Separation of Concerns](https://github.com/anthonybronkema/portfolio_site#separation-of-concerns)
 - [Code Quality](https://github.com/anthonybronkema/portfolio_site#code-quality)
+    - [HTML Formatting Rules](https://github.com/anthonybronkema/portfolio_site#html-formatting-rules)
+    - [HTML Style Rules](https://github.com/anthonybronkema/portfolio_site#html-style-rules)
+    - [CSS Formatting Rules](https://github.com/anthonybronkema/portfolio_site#css-formatting-rules)
+    - [CSS Style Rules](https://github.com/anthonybronkema/portfolio_site#css-style-rules)
+    - [General Meta Rules](https://github.com/anthonybronkema/portfolio_site#general-meta-rules)
+- [Style Guide](https://github.com/anthonybronkema/portfolio_site#style-guide)
+    - [Colors](https://github.com/anthonybronkema/portfolio_site#colors)
 
 ## To Do
 
@@ -41,7 +54,7 @@
 
 ## Rubric - Responsiveness
 
-### Cross-Device-Compatability
+### Cross-Device Compatability
 
 - Renders on **desktop**, **mobile (Google Nexus 5)** and **tablet (Apple iPad)**
 - An image's title/text renders next to the image in all viewport sizes
@@ -101,3 +114,11 @@
 
 - ~~HTML templates and documents use UTF-8 encoding. (no BOM) i.e. `<meta charset="utf-8">`~~
 - __**BONUS:**__ Mark todos and action items with `TODO`
+
+## Style Guide
+
+### Colors
+
+- **Dominant:** #5fffd0
+- _Accent1:_ #6d7f7a
+- _Accent2:_ #abffe7
