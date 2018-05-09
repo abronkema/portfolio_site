@@ -1,5 +1,10 @@
 # My first portfolio project
 
+- [Rubric - Design](https://github.com/anthonybronkema/portfolio_site#rubric---design)
+- [Rubric - Responsiveness](https://github.com/anthonybronkema/portfolio_site#rubric---responsiveness)
+- [Separation of Concerns](https://github.com/anthonybronkema/portfolio_site#separation-of-concerns)
+- [Code Quality](https://github.com/anthonybronkema/portfolio_site#code-quality)
+
 ## To Do
 
 - ~~Copy rubric to README~~
