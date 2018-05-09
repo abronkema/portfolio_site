@@ -52,7 +52,7 @@
 - Page utilizes a grid-based layout
 - Page uses `flexbox` layout (or framework)
 
-[_top_](https://github.com/anthonybronkema/portfolio_site#my-first-portfolio-project)
+[_top_](https://github.com/anthonybronkema/portfolio_site#portfolio-project)
 
 ## Rubric - Responsiveness
 
@@ -66,7 +66,7 @@
 - All content is rendered on all devices - no hidden content on mobile
 - ~~`meta` tag is included in HTML~~
 
-[_top_](https://github.com/anthonybronkema/portfolio_site#my-first-portfolio-project)
+[_top_](https://github.com/anthonybronkema/portfolio_site#portfolio-project)
 
 ## Separation of Concerns
 
@@ -74,7 +74,7 @@
 
 - no inline styles in HTML document, or `style` tag
 
-[_top_](https://github.com/anthonybronkema/portfolio_site#my-first-portfolio-project)
+[_top_](https://github.com/anthonybronkema/portfolio_site#portfolio-project)
 
 ## Code Quality
 
@@ -94,7 +94,7 @@
 - __**BONUS:**__ Code does not use entity references unless necessary e.g. characters with special meaning in HTML (like < and &) as well as control or “invisible” characters (like no-break spaces).
 - __**BONUS:**__ Code omits type attributes for style sheets and scripts
 
-[_top_](https://github.com/anthonybronkema/portfolio_site#my-first-portfolio-project)
+[_top_](https://github.com/anthonybronkema/portfolio_site#portfolio-project)
 
 ### CSS Formatting Rules
 
@@ -118,14 +118,14 @@
 - __**BONUS:**__ Code separate words in ID and class names by a hyphen.
 - __**BONUS:**__ Code avoids user agent detection as well as CSS "hacks"—try a different approach first.
 
-[_top_](https://github.com/anthonybronkema/portfolio_site#my-first-portfolio-project)
+[_top_](https://github.com/anthonybronkema/portfolio_site#portfolio-project)
 
 ### General Meta Rules
 
 - ~~HTML templates and documents use UTF-8 encoding. (no BOM) i.e. `<meta charset="utf-8">`~~
 - __**BONUS:**__ Mark todos and action items with `TODO`
 
-[_top_](https://github.com/anthonybronkema/portfolio_site#my-first-portfolio-project)
+[_top_](https://github.com/anthonybronkema/portfolio_site#portfolio-project)
 
 ## Style Guide
 
