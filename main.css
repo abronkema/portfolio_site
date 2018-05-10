@@ -1,0 +1,21 @@
+html {
+font-family: 'Maven Pro', sans-serif;
+}
+
+hr {
+    background-color: #6d7f7a;
+    border: .05em solid black;
+    height: .15em;
+    width: 100%;
+}
+h1 {
+   color: #5fffd0;
+}
+
+.accent-1 {
+    color: #6d7f7a;
+}
+
+.accent-2 {
+    color: #abffe7;
+}
