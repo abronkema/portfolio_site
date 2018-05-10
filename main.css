@@ -18,7 +18,7 @@ Top level of the page - using CSS Grid so I can place/size the logo, name and ti
 */
 
 header {
-    box-shadow: 3px 3px 3px -3px #6d7f7a;
+    box-shadow: 0px 3px 30px -30px #6d7f7a;
     order: -1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -34,7 +34,7 @@ header {
 #logo {
     width: 100px;
     height: auto;
-    padding: 3px;
+    padding: 5px;
 }
 
 .name {
@@ -64,7 +64,7 @@ header {
     order: 1;
 }
 
-.featured_image {
+.showcase_image {
     border: 1px solid black;
     width: 100%;
     order: 0;
@@ -93,13 +93,6 @@ border: 1px solid black;
     height: 100px;
     border: 1px solid black;
     }
-
-
-@media screen and (max-width: 550px) {
-
-}
-
-
 
 .accent-1 {
     color: #6d7f7a;
