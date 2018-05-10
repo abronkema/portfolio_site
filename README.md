@@ -22,7 +22,7 @@
 
 - ~~Copy rubric to README~~
 - Write out project needs
-- Color selection
+- ~~Color selection~~
 - Create logo
 - Expand README to include updated needs, better Markdown
 - Connect git repo to Netlify for hosting
