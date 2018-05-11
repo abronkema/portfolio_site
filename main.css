@@ -44,8 +44,7 @@ header {
     font-size: 2.05em;
     justify-self: end;
     align-self: center;
-    color: #5fffd0;
-    text-shadow: 1px 1px 1px black;
+    color: black;
     margin-right: 2px;
 }
 
@@ -65,7 +64,6 @@ header {
 }
 
 .showcase_image {
-    border: 1px solid black;
     width: 100%;
     order: 0;
     height: 150px;
@@ -93,6 +91,17 @@ border: 1px solid black;
     height: 100px;
     border: 1px solid black;
     }
+
+@media screen and (min-width: 550px) {
+    .showcase_image {
+        max-width: 550px;
+        align-self: center;
+    }
+}
+
+.dominant {
+    color: #5fffd0;
+}
 
 .accent-1 {
     color: #6d7f7a;
