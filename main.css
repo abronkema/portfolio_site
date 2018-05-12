@@ -7,7 +7,7 @@ font-size: 80%;
 
 body {
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     margin: 0;
 }
 
@@ -18,7 +18,7 @@ Top level of the page - using CSS Grid so I can place/size the logo, name and ti
 */
 
 header {
-    box-shadow: 0px 3px 30px -30px #6d7f7a;
+    width: 100%;
     order: -1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -62,6 +62,10 @@ header {
     order: 1;
 }
 
+.featured_header {
+    width: 100%;
+}
+
 /* the container will hide overflow from the height to create a zoom effect on window resizing */
 
 .showcase_container {
@@ -75,38 +79,36 @@ header {
     order: 0;
 }
 
-.featured_header {
-    width: 100%;
-}
-
 .featured_project_container {
-    width: 100%;
     max-height: 300px;
     overflow: hidden;
 }
 
-.left_project_image {
+.project_image {
     width: 100%;
     height: auto;
 }
 
-.featured_project_middle {
-width: 100%;
-height: 100px;
-border: 1px solid black;
-}
-
-.featured_project_right {
-    width: 100%;
-    height: 100px;
-    border: 1px solid black;
-    }
-
 @media screen and (min-width: 550px) {
-.showcase_container {
-        overflow: hidden;
-        max-height: 600px;
+/* the entire featured_work section will become its own flexbox container */
+    .featured_work {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
     }
+/* the individual featured_work_containers will be flex items, wrapping */
+    .featured_project_container {
+        width: 30%;
+        align-content: space-between;
+    }
+    
+    .showcase_container {
+        overflow: hidden;
+        max-height: 450px;
+    }
+
+
 }
 
 .dominant {
