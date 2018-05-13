@@ -41,7 +41,6 @@ header {
 .name {
     grid-column: 2/4;
     grid-row: 1/2;
-    justify-content: right;
     font-size: 2.05em;
     justify-self: end;
     align-self: center;
@@ -54,7 +53,6 @@ header {
     grid-row: 2/3;
     font-size: 1.25em;
     justify-self: end;
-    align-self: start;
     margin-right: 2px;
 }
 
