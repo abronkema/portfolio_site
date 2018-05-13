@@ -57,6 +57,13 @@ header {
     margin-right: 2px;
 }
 
+/* featured work at the bottom - it will be its own flex container to align images and text elements */
+
+article {
+    display: flex;
+    flex-flow: column;
+}
+
 .featured_work {
     width: 100%;
     order: 1;
@@ -89,6 +96,17 @@ header {
     height: auto;
 }
 
+.project_title {
+    align-self: center;
+}
+
+.project_link {
+    align-self: center;
+    background-color: #6d7f7a;
+    color: white;
+    padding: 1em 1.5em;
+}
+
 @media screen and (min-width: 550px) {
 /* the entire featured_work section will become its own flexbox container */
     .featured_work {
@@ -96,12 +114,13 @@ header {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
+        align-content: space-between;
+        align-items: flex-end;
     }
 /* the individual featured_work_containers will be flex items, wrapping */
     .featured_project_container {
         width: 30%;
-        align-content: space-between;
-    }
+    }   
     
     .showcase_container {
         overflow: hidden;
