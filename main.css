@@ -8,7 +8,8 @@ font-size: 80%;
 body {
     display: flex;
     flex-flow: column nowrap;
-    margin: 0;
+    max-width: 960px;
+    margin: auto;
 }
 
 /* 
@@ -27,7 +28,7 @@ header {
 
 .logo_container {
     grid-column: 1/2;
-    grid-row: 1/3;
+    grid-row: 1/4;
     align-self: center;
 }
 
@@ -62,6 +63,7 @@ header {
 article {
     display: flex;
     flex-flow: column;
+    max-height: 300px;
 }
 
 .featured_work {
@@ -71,6 +73,9 @@ article {
 
 .featured_header {
     width: 100%;
+    text-align: center;
+    /* box-shadow: 0 4px 2px -2px #5fffd0; */
+    padding: .05em;
 }
 
 /* the container will hide overflow from the height to create a zoom effect on window resizing */
@@ -93,7 +98,7 @@ article {
 
 .project_image {
     width: 100%;
-    height: auto;
+    max-height: 200px;
 }
 
 .project_title {
@@ -102,9 +107,35 @@ article {
 
 .project_link {
     align-self: center;
-    background-color: #6d7f7a;
+    background-color: #5fffd0;
     color: white;
-    padding: 1em 1.5em;
+    padding: .5em 1em;
+    width: 100%;
+    text-align: center;
+    margin: 1em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+footer {
+    order: 10000;
+    align-self: center;
+    align-content: space-between;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #6d7f7a;
 }
 
 @media screen and (min-width: 550px) {
@@ -113,7 +144,7 @@ article {
         width: 100%;
         display: flex;
         flex-flow: row wrap;
-        justify-content: center;
+        justify-content: space-between;
         align-content: space-between;
         align-items: flex-end;
     }
@@ -127,6 +158,9 @@ article {
         max-height: 450px;
     }
 
+    article {
+        flex-flow: column wrap;
+    }
 
 }
 
